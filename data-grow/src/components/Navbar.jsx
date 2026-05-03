@@ -12,7 +12,7 @@ const Navbar = () => {
     }
   return (
     <div className='flex justify-between items-center h-24 mx-auto max-w-310 px-4 text-white'>
-        <h1 className='w-full text-3xl text-[#00bf90] font-bold'>DataGrow.</h1>
+        <h1 className='w-full text-5xl md:text-6xl bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent font-bold'>DataGrow.</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4'>Home</li>
                 
@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
 
             <div className={nav ? 'fixed bg-gray-950 left-0 top-0 w-[60%] h-full border-r border-gray-900 ease-in-out duration-500' : 'fixed left-[-100%]'}>
-                <h1 className='w-full text-3xl text-[#00bf90] font-bold'>DataGrow.</h1>
+                <h1 className='w-full text-5xl md:text-6xl bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparentfont-bold'>DataGrow.</h1>
                 <ul className='p-4 uppercase'>
                     <li className='p-4 border-b border-gray-600'>Home</li>
                     
