@@ -1,7 +1,7 @@
 import { FaCheckCircle, FaRocket, FaChartLine, FaHeadset } from 'react-icons/fa';
 import { useState } from 'react';
 
-function Pricing() {
+const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(false);
 
   const plans = [

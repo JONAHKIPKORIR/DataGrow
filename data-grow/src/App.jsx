@@ -5,16 +5,20 @@ import Analytics from "./components/Analytics"
 import Newsletter from "./components/Newsletter"
 import Footer from "./components/Footer"
 import Pricing from "./components/Pricing"
+import Testimonials from "./components/Testimonials"
+import FAQ from "./components/FAQ"
 
 function App() {
 
   return (
     <div>
       <Navbar />
-      <Hero /> 
+      <Hero />
       <Analytics />
-      <Newsletter />
       <Pricing />
+      <Testimonials />
+      <FAQ />
+      <Newsletter />
       <Footer />
 
     </div>
